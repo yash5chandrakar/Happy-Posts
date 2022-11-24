@@ -86,7 +86,7 @@ td:nth-child(5) button {
 }
 
 .postsTable tr {
-    font-size: 1.8vw;
+    font-size: 2vw;
     margin-top: 10px;
 }
 
@@ -114,7 +114,7 @@ form h1 {
 }
 
 .formDiv input {
-    font-size: 2vw;
+    font-size: 2.2vw;
     padding: 8px;
     margin-top: 1.5vw;
     margin-bottom: 1.5vw;
