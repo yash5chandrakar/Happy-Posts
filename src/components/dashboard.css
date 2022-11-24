@@ -93,7 +93,8 @@ td:nth-child(5) button {
 
 form {
     text-align: center;
-    padding: 50px;
+    padding: 3.5vw;
+    /* padding: 50px; */
     background-color: rgb(43, 44, 45);
     border-radius: 25px;
     margin: 50px 20px;
@@ -114,8 +115,9 @@ form h1 {
 
 .formDiv input {
     font-size: 2vw;
-    /* font-size: 20px; */
     padding: 8px;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
     margin-right: 15px;
 }
 
