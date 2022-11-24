@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Kanit:ital,wght@1,300&display=swap');
+
+
+.outerDiv {
+    height: 100vh;
+    background: linear-gradient(gray, white);
+    min-width: 400px;
+}
+
+.navBar {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(66, 64, 64);
+}
+
+.navBar h1 {
+    font-size: 3.5vw;
+    /* font-size: 45px; */
+    margin-left: 10px;
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+
+.noData {
+    font-size: 2.5vw;
+    /* font-size: 45px; */
+    margin-left: 10px;
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+
+.navBar h4 {
+    margin-right: 10px;
+}
+
+#signOutButton {
+    font-size: 1.5vw;
+    /* font-size: 25px; */
+    cursor: pointer;
+    padding: 0px 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#signOutButton:hover {
+    text-decoration: underline;
+}
+
+.postsTable {
+    width: 100%;
+    min-width: 400px;
+    text-align: center;
+    border-spacing: 20px;
+}
+
+.postsTable th {
+    font-size: 2.4vw;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 1px 1px 1px gold;
+    text-decoration: underline;
+}
+
+
+.postsTable button {
+    padding: 0.5vw;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 0.9vw;
+}
+
+td:nth-child(4) button {
+    background-color: rgb(110, 178, 242);
+    color: black;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+td:nth-child(5) button {
+    background-color: red;
+    color: black;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+.postsTable tr {
+    font-size: 1.8vw;
+    margin-top: 10px;
+}
+
+
+form {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(43, 44, 45);
+    border-radius: 25px;
+    margin: 50px 20px;
+    min-width: 150px;
+}
+
+form h1 {
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 20px;
+}
+
+.formDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formDiv input {
+    font-size: 2vw;
+    /* font-size: 20px; */
+    padding: 8px;
+    margin-right: 15px;
+}
+
+.formDiv button {
+    font-size: 2vw;
+    /* font-size: 25px; */
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: greenyellow;
+    cursor: pointer;
+}
