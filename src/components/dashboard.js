@@ -127,8 +127,8 @@ const Dashboard = () => {
                                     <td>{id++}.</td>
                                     <td>{item.title}</td>
                                     <td>{item.body}</td>
-                                    <td><button onClick={() => updateData(item.id)}>Edit Item</button></td>
-                                    <td><button onClick={() => deleteData(item.id)}>Delete Item</button></td>
+                                    <td><button onClick={() => updateData(item.id)}>✏️</button></td>
+                                    <td><button onClick={() => deleteData(item.id)}>🗑</button></td>
                                 </tr>
                             })}
                         </tbody>
