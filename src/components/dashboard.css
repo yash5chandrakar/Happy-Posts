@@ -75,15 +75,15 @@
 td:nth-child(4) button {
     background-color: rgb(110, 178, 242);
     color: black;
-    font-weight: 600;
-    font-family: cursive;
+    font-size: 1.2vw;
+    font-weight: 900;
 }
 
 td:nth-child(5) button {
     background-color: red;
-    color: black;
-    font-weight: 600;
-    font-family: cursive;
+    color: rgb(64, 63, 63);
+    font-size: 1.5vw;
+    font-weight: 900;
 }
 
 .postsTable tr {
